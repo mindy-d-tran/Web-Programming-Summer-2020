@@ -1,0 +1,152 @@
+/* begining of navigator css */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #88bab9;
+}
+
+/* a:hover MUST come after a:link and a:visited
+*  a:active must be after hover */  
+.active {
+    background-color: #41626c;
+}
+.active a{
+    color: #b4d5ce;
+}
+  
+nav li {
+    float: left;
+}
+  
+nav li a {
+    display: block;
+    color: #013F4C;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav li a:hover {
+    background-color: #b4d5ce;
+    color: #013F4C;
+}
+/* end of navigator css */
+
+/* beginning table css */
+table, th, td {
+    border: 2px solid #013F4C;
+    color: #012127;
+}
+
+table {
+    border-collapse: collapse;
+    width: 75%;
+    background-color: #b4d5ce;
+}
+  
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #88bab9;
+}
+
+table a {
+    color: #012127;
+    text-decoration: none;
+}
+
+table a:hover {
+    color: #CC3731;
+}
+
+tr:nth-child(even) {background-color: #f1f6f7c5;}
+/* end of table css */
+/* #bio p {
+    float: left;
+} */
+
+#bio img {
+    float: right;
+    width: 500px;
+}
+
+/* beginning of text change with css */
+.txt-center{
+    text-align: center;
+}
+
+.txt-bold {
+    font-weight: bold;
+}
+
+.red-bold {
+    color: #CC3731;
+    font-weight: bold;
+}
+
+#quote {
+    font-style: italic;
+    color: #1F89A0;
+}
+/* end of text change with css */
+
+/* beginning of resume css */
+.resume#header{
+    text-align: center;
+}
+
+.resume#content {
+    border-bottom: #946062 solid;
+}
+.resume ul{
+    align-content: center;
+}
+/* end of resume css */
+
+/* beginning of button css */
+button{
+    background-color: #88bab9;
+    border: none;
+    padding: 15px 20px;
+    text-align: center;
+    width: 175px;
+    font-weight: bold;
+}
+
+button a{
+    color: #41626c;
+}
+/* end of button css */
+
+/* beginning of link css */
+a {
+    color: #946062;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #CC3731;
+}
+/* end of link css */
+
+body {
+    color: #644D58;
+}
+
+h1, h2 {
+    color: #41626c;
+}
+/* h2{
+    border-bottom: 1px solid;
+    width: 20%;
+} */
+html {
+    background-color: #E5DCD8;
+    font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif;
+    margin: 0px 50px;
+}
